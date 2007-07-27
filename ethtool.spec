@@ -1,6 +1,6 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
-Version:	5
+Version:	6
 Release:	%mkrel 1
 License:	GPL
 Group:		System/Configuration/Networking
@@ -32,5 +32,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS NEWS
 %{_mandir}/*/*
 %{_sbindir}/ethtool
-
-
