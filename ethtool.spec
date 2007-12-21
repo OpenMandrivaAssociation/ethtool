@@ -5,6 +5,7 @@ Release:	%mkrel 1
 License:	GPL
 Group:		System/Configuration/Networking
 Source:		http://prdownloads.sourceforge.net/gkernel/%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://sourceforge.net/projects/gkernel/
 
 
