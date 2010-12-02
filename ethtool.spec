@@ -1,7 +1,7 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
 Version:	6
-Release:	%mkrel 6
+Release:	%mkrel 7
 License:	GPL
 Group:		System/Configuration/Networking
 Source:		http://prdownloads.sourceforge.net/gkernel/%{name}-%{version}.tar.bz2
