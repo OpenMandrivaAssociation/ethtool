@@ -1,6 +1,6 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
-Version:	3.7
+Version:	3.8
 Release:	1
 License:	GPL
 Group:		System/Configuration/Networking

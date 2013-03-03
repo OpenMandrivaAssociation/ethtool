@@ -1,3 +1,6 @@
-sources:
+removed_sources:
   ethtool-3.7.tar.xz: adc2279c506a49cf17b366b4293412c32771752a
+sources:
   ethtool-3.7.tar.sign: 66145aaeaaf95d90a99236c45420817c324dd964
+  ethtool-3.8.tar.sign: bf9451a1a90ab7d38290e7ad3706340228419e96
+  ethtool-3.8.tar.xz: 653112e78fea5230d4b4ea67f433c62b16bed071
