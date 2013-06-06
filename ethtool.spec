@@ -1,13 +1,12 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
 Epoch:		1
-Version:	3.8
+Version:	3.9
 Release:	1
 License:	GPLv2
 Group:		System/Configuration/Networking
 Url:		https://www.kernel.org/pub/software/network/ethtool
 Source0:	https://www.kernel.org/pub/software/network/ethtool/%{name}-%{version}.tar.xz
-Source1:	https://www.kernel.org/pub/software/network/ethtool/%{name}-%{version}.tar.sign
 
 %description
 This utility allows querying and changing of ethernet
