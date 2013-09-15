@@ -1,2 +1,4 @@
+removed_sources:
+  ethtool-3.10.tar.xz: 50afe27a18f1ab77e25d35af0c4c1cc5af1ef643
 sources:
-  "ethtool-3.10.tar.xz": 50afe27a18f1ab77e25d35af0c4c1cc5af1ef643
+  ethtool-3.11.tar.xz: 404bcc6bbb9911c1993c1405e7d96232acb66516
