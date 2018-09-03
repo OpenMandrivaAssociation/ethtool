@@ -1,7 +1,7 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
 Epoch:		1
-Version:	4.15
+Version:	4.18
 Release:	1
 License:	GPLv2
 Group:		System/Configuration/Networking
@@ -12,15 +12,14 @@ Source0:	https://www.kernel.org/pub/software/network/ethtool/%{name}-%{version}.
 This utility allows querying and changing of ethernet
 card settings, such as speed, port, and autonegotiation.
 
-%prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc AUTHORS NEWS
