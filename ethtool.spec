@@ -12,6 +12,7 @@ Source0:	https://www.kernel.org/pub/software/network/ethtool/%{name}-%{version}.
 This utility allows querying and changing of ethernet
 card settings, such as speed, port, and autonegotiation.
 
+%prep
 %autosetup -p1
 
 %build
