@@ -2,7 +2,7 @@ Summary:	Ethernet settings tool for network cards
 Name:		ethtool
 Epoch:		1
 Version:	4.18
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		System/Configuration/Networking
 Url:		https://www.kernel.org/pub/software/network/ethtool
@@ -22,7 +22,11 @@ card settings, such as speed, port, and autonegotiation.
 %install
 %make_install
 
+mkdir -p %{buildroot}/sbin
+ln -sf %{_sbindir}/ethtool %{buildroot}/sbin/ethtool
+
 %files
 %doc AUTHORS NEWS
-%{_mandir}/*/*
+/sbin/ethtool
 %{_sbindir}/ethtool
+%{_mandir}/*/*
