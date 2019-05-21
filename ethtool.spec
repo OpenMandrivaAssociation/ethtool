@@ -29,4 +29,5 @@ ln -sf %{_sbindir}/ethtool %{buildroot}/sbin/ethtool
 %doc AUTHORS NEWS
 /sbin/ethtool
 %{_sbindir}/ethtool
+%{_datadir}/bash-completion/completions/ethtool
 %{_mandir}/*/*
