@@ -1,7 +1,7 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
 Epoch:		1
-Version:	5.14
+Version:	5.15
 Release:	1
 License:	GPLv2
 Group:		System/Configuration/Networking
@@ -31,4 +31,4 @@ ln -sf %{_sbindir}/ethtool %{buildroot}/sbin/ethtool
 /sbin/ethtool
 %{_sbindir}/ethtool
 %{_datadir}/bash-completion/completions/ethtool
-%{_mandir}/*/*
+%doc %{_mandir}/*/*
