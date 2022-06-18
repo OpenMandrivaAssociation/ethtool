@@ -1,6 +1,6 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
-Version:	5.17
+Version:	5.18
 Release:	1
 License:	GPLv2
 Group:		System/Configuration/Networking
@@ -22,12 +22,8 @@ card settings, such as speed, port, and autonegotiation.
 %install
 %make_install
 
-mkdir -p %{buildroot}/sbin
-ln -sf %{_sbindir}/ethtool %{buildroot}/sbin/ethtool
-
 %files
 %doc AUTHORS NEWS
-/sbin/ethtool
 %{_sbindir}/ethtool
 %{_datadir}/bash-completion/completions/ethtool
 %doc %{_mandir}/*/*
