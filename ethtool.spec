@@ -1,7 +1,7 @@
 Summary:	Ethernet settings tool for network cards
 Name:		ethtool
 Version:	6.2
-Release:	1
+Release:	2
 License:	GPLv2
 Group:		System/Configuration/Networking
 Url:		https://www.kernel.org/pub/software/network/ethtool
